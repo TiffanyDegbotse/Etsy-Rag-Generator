@@ -12,20 +12,21 @@ Features:
 Usage:
 python main.py
 
-
 Project Structure:
-etsy-ai-generator/
-├── data/
-├── docs/
-├── images/
-├── scripts/
-│   ├── topic_scraper.py
-│   ├── rag_generator.py
-│   ├── image_creator.py
-│   └── etsy_listing_helper.py
-├── main.py
-├── .env.example
-└── requirements.txt
+
+- etsy-ai-generator/
+  - data/                       (Scraped RAG context text files)
+  - docs/                       (Generated PDF product guides)
+  - images/                     (DALL·E-generated Etsy cover images)
+  - scripts/
+    - topic_scraper.py          (Scrapes topic context from DuckDuckGo)
+    - rag_generator.py          (Uses OpenAI to generate the guide and PDF)
+    - image_creator.py          (Generates a 1024x1024 cover image via DALL·E)
+    - etsy_listing_helper.py    (Creates title, tags, and description for Etsy)
+  - main.py                     (Main CLI entry point for full pipeline)
+  - requirements.txt            (Python dependencies)
+  - .env.example                (Sample environment config)
+  - .gitignore                  (Excludes venv, .env, cache, etc.)
 
 Setup:
 Create a `.env` file:
@@ -42,4 +43,3 @@ Git Commit + Push Example:
 git add README.md  
 git commit -m "Add README"  
 git push
-

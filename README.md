@@ -39,7 +39,3 @@ Coming Soon:
 - Batch topic generation  
 - Etsy auto-upload (via Puppeteer or API)  
 
-Git Commit + Push Example:
-git add README.md  
-git commit -m "Add README"  
-git push

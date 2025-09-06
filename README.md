@@ -12,6 +12,7 @@ Features:
 Usage:
 python main.py
 
+
 Project Structure:
 etsy-ai-generator/
 ├── data/

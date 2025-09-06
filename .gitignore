@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual env
+venv/
+
+# dotenv secrets
+.env
+
+# VSCode and system files
+.vscode/
+.DS_Store
+Thumbs.db
